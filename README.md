@@ -9,7 +9,7 @@ To write a program to find the maximum of a list of numbers.
 2.	Use the sort() function or max() function or use the for loop to find the maximum mark.
 3.	Return the maximum value
 ## Program:
-
+1.Program to mark the maximum of marks using the list method sort
 ```
 Developed by:RAMYA P
 RegisterNumber:23006111 
@@ -17,14 +17,22 @@ RegisterNumber:23006111
 def max_marks(marks):
     marks.sort()
     return marks[-1]
-
-
 ```
-## Sample Input and Output
-![output](./img/max_marks1.jpg) 
+2.Program to find the maximum marks using the list method max().
+```
+Developed by:RAMYA P
+RegisterNumber:23006111 
+def max_marks(marks):
+    a=max(marks)
+    return a
+``` 
 
 ## Output:
-![image](https://github.com/23006111/FindMaximum/assets/145981696/f4e150a9-f7a6-472b-8d6e-5dd9e5c9c989)
+![image](https://github.com/23006111/FindMaximum/assets/145981696/1552f9af-c4d0-4e34-b986-a2d7dcf3b644)
+![image](https://github.com/23006111/FindMaximum/assets/145981696/85b63c1b-78a7-4b4f-8a06-92fc0d122d83)
+
+
+
 
 
 ## Result:
